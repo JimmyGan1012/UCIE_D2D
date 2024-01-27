@@ -19,7 +19,7 @@ import chisel3.experimental.BundleLiterals._
   * }}}
   * Testing from mill:
   * {{{
-  * mill %NAME%.test.testOnly gcd.GCDSpec
+  * mill UCIE_D2D.test.testOnly gcd.GCDSpec
   * }}}
   */
 class GCDSpec extends AnyFreeSpec with ChiselScalatestTester {
